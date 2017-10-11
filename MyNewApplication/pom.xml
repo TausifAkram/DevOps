@@ -29,7 +29,7 @@
 					<workspace>/var/lib/jenkins/workspace/POC_MavenProject</workspace>
 					<useClassloaders>false</useClassloaders>
 					<failOnInvalidClassloader>true</failOnInvalidClassloader>
-					<createOrPackageBar>package</createOrPackageBar>
+					<createOrPackageBar>create</createOrPackageBar>
 					<completeDeployment>true</completeDeployment>
 					<timeoutSecs>600</timeoutSecs>
 					<versionString>1.0</versionString>
