@@ -24,9 +24,9 @@
 				<configuration>
 					<toolkitInstallDir>/local1/IBM/iib-10.0.0.10/tools</toolkitInstallDir>
 					<unpackIibDependenciesIntoWorkspace>true</unpackIibDependenciesIntoWorkspace>
-					<barName>C:\Users\ma277059\IBM\IIBT10\Sampleworkspace\MyNewApplication\target\iib\MyBar.bar</barName>
-					<pathToMqsiProfileScript>C:\Program Files\IBM\IIB\10.0.0.7\server\bin\mqsiprofile.cmd</pathToMqsiProfileScript>
-					<workspace>C:\Users\ma277059\IBM\IIBT10\Sampleworkspace</workspace>
+					<barName>/var/lib/jenkins/workspace/POC_MavenProject/MyNewApplication/target/iib/MyBar.bar</barName>
+					<pathToMqsiProfileScript>/local1/IBM/iib-10.0.0.10/server/bin/mqsiprofile.cmd</pathToMqsiProfileScript>
+					<workspace>/var/lib/jenkins/workspace/POC_MavenProject/MyNewApplication</workspace>
 					<useClassloaders>false</useClassloaders>
 					<failOnInvalidClassloader>true</failOnInvalidClassloader>
 					<createOrPackageBar>package</createOrPackageBar>
