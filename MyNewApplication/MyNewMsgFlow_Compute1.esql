@@ -1,11 +1,10 @@
 
 
-CREATE COMPUTE MODULE MyNewMsgFlow_Compute
+CREATE COMPUTE MODULE MyNewMsgFlow_Compute1
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		--- Adding a acomment --
-		-- CALL CopyMessageHeaders();
-		 CALL CopyEntireMessage();
+	       CALL CopyMessageHeaders();
+		-- CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
 

@@ -22,14 +22,14 @@
 				<version>10.0-SNAPSHOT</version>
 				
 				<configuration>
-					<toolkitInstallDir>/local1/IBM/iib-10.0.0.10/tools</toolkitInstallDir>
+					<toolkitInstallDir>C:\Program Files\IBM\IIB\10.0.0.7\tools</toolkitInstallDir>
 					<unpackIibDependenciesIntoWorkspace>true</unpackIibDependenciesIntoWorkspace>
-					<barName>C:\Users\ma277059\IBM\IIBT10\Sampleworkspace\MyNewApplication\target\iib\MyBar.bar</barName>
+					<barName>C:\SVNs\SRDE-RTS\RD_SOA_Services\trunk\Dummy\MyNewApplication\target\iib\MyBar.bar</barName>
 					<pathToMqsiProfileScript>C:\Program Files\IBM\IIB\10.0.0.7\server\bin\mqsiprofile.cmd</pathToMqsiProfileScript>
-					<workspace>C:\Users\ma277059\IBM\IIBT10\Sampleworkspace</workspace>
-					<useClassloaders>false</useClassloaders>
-					<failOnInvalidClassloader>true</failOnInvalidClassloader>
-					<createOrPackageBar>package</createOrPackageBar>
+					<workspace>C:\SVNs\SRDE-RTS\RD_SOA_Services\trunk\Dummy\MyNewApplication</workspace>
+					<!--<useClassloaders>false</useClassloaders>-->
+					<!--<failOnInvalidClassloader>true</failOnInvalidClassloader>-->
+					<!--<createOrPackageBar>package</createOrPackageBar> -->
 					<completeDeployment>true</completeDeployment>
 					<timeoutSecs>600</timeoutSecs>
 					<versionString>1.0</versionString>
